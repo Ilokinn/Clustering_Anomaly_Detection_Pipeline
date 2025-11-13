@@ -3,7 +3,7 @@
 A comprehensive data science project exploring clustering algorithms and anomaly detection 
 techniques on high-dimensional datasets.
 
-## 🎯 Project Overview
+## Project Overview
 
 This project investigates:
 - **Clustering** performance across different algorithms (K-Means, DBSCAN, Spectral Clustering)
@@ -11,7 +11,7 @@ This project investigates:
 - **Anomaly Detection** using ensemble methods and deep learning autoencoders
 - Comparative analysis with internal/external validation metrics
 
-## 📊 Datasets
+## Datasets
 
 - **Hi-Seq**: Gene expression data (20,531 features, 801 samples)
   - Multiple cancer types classification
@@ -21,20 +21,8 @@ This project investigates:
   - Normal vs. abnormal pattern detection
   - Time-series anomaly detection benchmark
 
-## 🏗️ Project Structure
-├── src/
-│   ├── models.py              # Algorithm implementations
-│   ├── preprocess.py          # Data cleaning & transformation
-│   ├── train.py               # Training pipelines
-│   └── utils.py               # Metrics & utilities
-├── notebooks/
-│   └── analysis.ipynb         # Main analysis & visualization
-├── results/
-│   ├── clustering_results.csv
-│   └── anomaly_results.csv
-├── requirements.txt
-└── README.md
-## 🚀 Quick Start
+
+## Quick Start
 ```bash
 # Install dependencies
 pip install -r requirements.txt
@@ -43,7 +31,7 @@ pip install -r requirements.txt
 jupyter notebook notebooks/analysis.ipynb
 ```
 
-## 📈 Methodology
+## Methodology
 
 ### Experimental Protocol
 - **10 independent runs** per algorithm
@@ -85,11 +73,11 @@ Each tested with:
    - Sparse Autoencoder
    - Monte Carlo Dropout Autoencoder
 
-## 📊 Key Results
+## Key Results
 
 [Results summary to be added after analysis]
 
-## 🛠️ Technologies
+## Technologies
 
 - Python 3.8+
 - scikit-learn
@@ -98,12 +86,12 @@ Each tested with:
 - Matplotlib, Seaborn
 - UMAP for dimensionality reduction
 
-## 📝 Notes
+## Notes
 
 - Data preprocessing ensures normalization for fair comparisons
 - Hyperparameter tuning performed on validation sets
 - Reproducibility maintained through random seed management
 
-## 📜 License
+## License
 
 MIT License - feel free to use for learning and research.
